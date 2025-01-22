@@ -52,9 +52,6 @@
 }
 
 /* nav styles */
-.icon{
-  display: none;
-}
 .navbar {
   
   justify-content: space-between;
@@ -119,6 +116,9 @@ li a {
   font-size: 20px;
   font-weight: normal;
 }
+.icon{
+  display: none;
+}
 
 /* nav responsive */
 @media screen and (max-width:576px) {
@@ -136,6 +136,9 @@ li a {
   .hero-img-title {
     flex-direction: column-reverse;
     text-align: center;
+  }
+  .icon{
+    display: flex;
   }
   
 }
