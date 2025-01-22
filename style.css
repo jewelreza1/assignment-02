@@ -277,9 +277,21 @@ top: -6px;
 @media screen and (max-width: 576px) {
   .box-content{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  
+    grid-template-columns:1fr;
+    justify-items: center;
+    justify-content: center;
+   
+
   }
+    .box-1 {
+      width: 90%;
+    }
+    .box-2{
+      width: 90%;
+    }
+    .box-3{
+      width: 90%;
+    }
   .next-icon{
     display: none;
   }
