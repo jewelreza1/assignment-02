@@ -52,10 +52,8 @@
 }
 
 /* nav styles */
-.icon{
-  display: flex;
-}
 .navbar {
+  
   justify-content: space-between;
   align-items: center;
 }
@@ -97,7 +95,7 @@ li a {
 }
 
 /* hero section */
-hero-img-img{
+.hero-img-img{
   width: 100%;
 }
 .hero-img-title {
@@ -126,6 +124,10 @@ hero-img-img{
   .nav-text,
   .btn1 {
     display: none;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
   }
 
   .hero-img-title {
