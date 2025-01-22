@@ -38,8 +38,11 @@
   font-weight: 1.25rem;
 
 }
-
-.btn2, .view-all {
+.view-all {
+ text-align: center;
+ margin-top: 30px;
+}
+.btn2, .viewall-btn {
   background-color: #000000;
   color: white;
   padding: 15px 25px;
@@ -475,13 +478,13 @@ color: white;
     padding: 0;
     margin: 0;
     position: relative;
-    left: -40px;
+    left: -20px;
 
   }
   .footer-contact{
     margin-top: 80px;
     position: relative;
-    left: -32px;
+    left: -20px;
 
 
   }
