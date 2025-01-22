@@ -52,6 +52,9 @@
 }
 
 /* nav styles */
+.icon{
+  display: none;
+}
 .navbar {
   
   justify-content: space-between;
