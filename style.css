@@ -273,12 +273,12 @@ top: -6px;
 
 }
 
-/* box responsive */
+/* main box responsive */
 @media screen and (max-width: 576px) {
   .box-content{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
+  
   }
   .next-icon{
     display: none;
