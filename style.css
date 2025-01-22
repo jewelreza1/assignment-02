@@ -144,6 +144,11 @@ li a {
 }
 
 /* box-content (main-container) */
+.bg{
+ background-image: url("./assets/bg.png");
+ background-size: contain;
+ background-repeat: no-repeat;
+}
 .main-container {
   margin-top: 70px;
 }
@@ -255,6 +260,19 @@ h1 {
   margin-bottom: 60px;
 }
 
+.next1{
+position: relative;
+left: -17px;
+top: -6px;
+
+}
+.next2{
+position: relative;
+left: -17px;
+top: -6px;
+
+}
+
 /* box responsive */
 @media screen and (max-width: 576px) {
   .box-content{
@@ -276,7 +294,7 @@ h1 {
   margin-bottom: 80px;
 }
 .card-head{
-  background: linear-gradient(to bottom, white, rgba(254, 163, 1, 1));
+  background-image: url("./assets/bg.png"), linear-gradient(to bottom, white, rgba(254, 163, 1, 1));
   height: 900px;
   width: auto;
   padding: 40px;
