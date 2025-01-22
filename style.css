@@ -295,8 +295,10 @@ top: -6px;
 }
 .card-head{
   background-image: url("./assets/bg.png"), linear-gradient(to bottom, white, rgba(254, 163, 1, 1));
-  height: 900px;
-  width: auto;
+  /* height: 900px;
+  width: auto; */
+  background-size: contain;
+  background-repeat: no-repeat;
   padding: 40px;
 }
 
